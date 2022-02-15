@@ -1,0 +1,16 @@
+﻿using System;
+
+namespace A_B1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string input = Console.ReadLine();
+            string[] p = input.Split(" ");
+            int a = Convert.ToInt32(p[0]);
+            int b = Convert.ToInt32(p[1]);
+            Console.WriteLine(a + b);
+        }
+    }
+}
