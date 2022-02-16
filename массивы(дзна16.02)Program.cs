@@ -14,7 +14,7 @@ namespace массивы
                 int i = 0;
                 if (nums[i] < min)
                     min = nums[i];
-            } Console.WriteLine(min);
+            } 
 
             int max = int.MinValue;
             for (int i = 0, i < nums.Length; i++) 
@@ -39,7 +39,12 @@ namespace массивы
                 if (nums[i] < min) { min = nums[i]; min_pos = 1; }
             } Console.WriteLine(min_pos);
 
-
+            Console.WriteLine(min);
+            Console.WriteLine(max);
+            Console.WriteLine(max_pos);
+            Console.WriteLine(min_pos);
+            //я не доделала еще
+            //и не разобралось с рандомом 
         }
     }
 }
