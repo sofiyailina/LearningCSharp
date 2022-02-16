@@ -29,7 +29,7 @@ namespace массивы
             for (int i = 0, i <nums.Length; i++)
             {
                 if (nums[i] > max) { max = nums[i]; max_pos = 1; }
-            } Console.WriteLine(max_pos);
+            } 
 
 
             min = int.MaxValue;
@@ -37,7 +37,7 @@ namespace массивы
             for (int i = 0, i < nums.Length; i++)
             {
                 if (nums[i] < min) { min = nums[i]; min_pos = 1; }
-            } Console.WriteLine(min_pos);
+            } 
 
             Console.WriteLine(min);
             Console.WriteLine(max);
