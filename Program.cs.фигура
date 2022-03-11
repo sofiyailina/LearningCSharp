@@ -7,7 +7,6 @@ namespace фигура_псевдографикой
         static void Main(string[] args)
         {
             int heigth = int.Parse(Console.ReadLine());
-            //int width = int.Parse(Console.ReadLine());
             Console.WriteLine("hello");
             for (int x = 0; x < heigth; x++)
             {
